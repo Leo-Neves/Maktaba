@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    signingConfigs {
+        production {
+            keyAlias 'afollestad'
+            keyPassword 'aidan1995'
+            storeFile file('./keystore.jks')
+            storePassword 'aidan1995'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.afollestad.materialdialogssample"
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 156
+        versionName "0.8.5.4"
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.production
+        }
+        release {
+            signingConfig signingConfigs.production
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':core')
+    compile project(':commons')
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+}
