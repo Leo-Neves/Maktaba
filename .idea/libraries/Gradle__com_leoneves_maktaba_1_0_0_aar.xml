@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.leoneves:maktaba:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b43f0cc5bed7d758b1b54b7f0aaddc25/jetified-maktaba-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b43f0cc5bed7d758b1b54b7f0aaddc25/jetified-maktaba-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b43f0cc5bed7d758b1b54b7f0aaddc25/jetified-maktaba-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.leoneves/maktaba/1.0.0/7a049b8753a0c94b92a3b233d8fe3170a99e7839/maktaba-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.leoneves/maktaba/1.0.0/313dbaee2b091b80940c83001634e51881435e7d/maktaba-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

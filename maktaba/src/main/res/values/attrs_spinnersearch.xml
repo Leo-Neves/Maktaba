@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpinnerSearch">
+        <attr format="integer" name="ss_baseColor"/>
+        <attr format="integer" name="ss_highlightColor"/>
+        <attr format="integer" name="ss_errorColor"/>
+        <attr format="string" name="ss_error"/>
+        <attr format="string" name="ss_hint"/>
+        <attr format="color" name="ss_hintColor"/>
+        <attr format="color" name="ss_textColor"/>
+        <attr format="string" name="ss_floatingLabelText"/>
+        <attr format="color" name="ss_floatingLabelColor"/>
+        <attr format="boolean" name="ss_multiline"/>
+        <attr format="integer" name="ss_nbErrorLines"/>
+        <attr format="string" name="ss_typeface"/>
+        <attr format="boolean" name="ss_alignLabels"/>
+        <attr format="dimension" name="ss_thickness"/>
+        <attr format="dimension" name="ss_thickness_error"/>
+        <attr format="dimension" name="ss_arrowSize"/>
+        <attr format="color" name="ss_arrowColor"/>
+        <attr format="boolean" name="ss_enableFloatingLabel"/>
+        <attr format="boolean" name="ss_enableFloatingLabelAnimation"/>
+        <attr format="boolean" name="ss_enableErrorLabel"/>
+        <attr format="string" name="ss_names" />
+        <attr format="string" name="ss_noOneFound"/>
+        <attr format="string" name="ss_selectOne"/>
+    </declare-styleable>
+
+</resources>

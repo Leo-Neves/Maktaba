@@ -1,1 +1,3 @@
-include ':core', ':sample', ':commons', ':materialprogressbar'
+include ':app', ':maktaba'
+rootProject.name='Maktaba'
+startParameter.excludedTaskNames.add('javadoc')

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadioButtonDrawable">
+        <attr name="rbd_width" format="dimension"/>
+        <attr name="rbd_height" format="dimension"/>
+        <attr name="rbd_strokeSize" format="dimension"/>
+        <attr name="rbd_radius" format="dimension"/>
+        <attr name="rbd_innerRadius" format="dimension"/>
+        <attr name="rbd_strokeColor" format="color"/>
+        <attr name="rbd_animDuration" format="integer"/>
+    </declare-styleable>
+
+</resources>

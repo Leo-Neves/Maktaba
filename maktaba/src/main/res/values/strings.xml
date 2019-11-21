@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Maktaba</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- EditText -->
+    <string name="cpf_invalido">CPF inválido</string>
+    <string name="somente_inteiros">Somente números inteiros</string>
+    <string name="somente_numeros">Somente numeros</string>
+    <string name="informe_cpf_valido">Informe um CPF valido</string>
+    <string name="email_invalido">E-Mail inválido</string>
+    <string name="informe_email_valido">Informe um e-mail válido</string>
+    <string name="cnpj_invalido">CNPJ inválido</string>
+    <string name="informe_cnpj_valido">Informe um CNPJ válido</string>
+    <string name="loading">Loading…</string>
+    <string name="informe_cartao">Número do cartão</string>
+    <string name="cartao_invalido">Cartão inválido</string>
+    <string name="informe_cep_valido">Informe um CEP</string>
+    <string name="complete_o_cep">Complete o CEP</string>
+    <string name="cep">CEP</string>    <string name="informe_telefone_ddd">Telefone com DDD</string>
+    <string name="informe_uma_data_valida">Informe uma data válida</string>
+    <string name="valor_em_reais">Valor em Reais R$</string>
+    <string name="valor_invalido">Valor inválido</string>
+    <string name="campo_obrigatorio">Campo obrigatório</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="carregando">Carregando…</string>
+
+    <!-- DatePicker -->
+    <string name="mdtp_ok">@android:string/ok</string>
+    <string name="mdtp_cancel">@android:string/cancel</string>
+    <string name="mdtp_second_picker_description">Seconds circular slider</string>
+    <string name="mdtp_select_seconds">Select seconds</string>
+    <string name="mdtp_item_is_selected"> selected</string>
+    <string name="mdtp_deleted_key"> deleted</string>
+    <string name="mdtp_time_placeholder" translatable="false">00</string>
+    <string name="mdtp_time_separator" translatable="false">:</string>
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+    <string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>
+    <string name="mdtp_erase">Limpar</string>
+    <string name="mdtp_done_label" msgid="7007948707597430919">"Concluído"</string>
+    <string name="mdtp_hour_picker_description" msgid="7586639618712934060">"Controle deslizante circular das horas"</string>
+    <string name="mdtp_minute_picker_description" msgid="6024811202872705251">"Controle deslizante circular dos minutos"</string>
+    <string name="mdtp_select_hours" msgid="7651068754188418859">"Selecione as horas"</string>
+    <string name="mdtp_select_minutes" msgid="8327182090226828481">"Selecione os minutos"</string>
+    <string name="mdtp_day_picker_description" msgid="3968620852217927702">"Grade mensal de dias"</string>
+    <string name="mdtp_year_picker_description" msgid="6963340404644587098">"Lista de anos"</string>
+    <string name="mdtp_select_day" msgid="3973338219107019769">"Selecione o mês e o dia"</string>
+    <string name="mdtp_select_year" msgid="2603330600102539372">"Selecione o ano"</string>
+    <string name="mdtp_date_v1_monthyear">MMMM \'de\' yyyy</string>
+    <string name="spinnersearch_noonefound">No one found</string>
+    <string name="spinnersearch_selectone">Select one</string>
+</resources>

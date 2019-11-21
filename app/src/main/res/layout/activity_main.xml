@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.leoneves.maktaba.edittext.EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Only numbers"
+        app:et_modo="inteiro"
+     />
+
+    <com.leoneves.maktaba.edittext.EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Telephone"
+        app:et_modo="telefone"
+        />
+
+    <com.leoneves.maktaba.edittext.EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Brazilian Monetary"
+        app:et_modo="real"
+        />
+
+    <com.leoneves.maktaba.fitbutton.FitButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        />
+
+    <com.leoneves.maktaba.buttonflat.ButtonFlat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Flat"
+        />
+
+    <com.leoneves.maktaba.spinner.Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ms_nomes="First;Second;Third;Fourth"
+        app:ms_valores="1;2;3;4"
+        />
+
+    <com.leoneves.maktaba.radiocheckswitch.Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:sw_tipo="radio"
+        android:orientation="horizontal"
+        />
+
+    <com.leoneves.maktaba.radiocheckswitch.Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:sw_tipo="toggle"
+        android:checked="true"
+        />
+
+    <com.leoneves.maktaba.progressbar.MaterialProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

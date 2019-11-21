@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FabReveal">
+        <attr name="fr_content" format="reference"/>
+        <attr name="fr_overlay" format="reference"/>
+        <attr name="fr_contentColor" format="color"/>
+        <attr name="fr_overlayColor" format="color"/>
+    </declare-styleable>
+</resources>

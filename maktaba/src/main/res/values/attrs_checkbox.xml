@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CheckBoxDrawable">
+        <attr name="cbd_width" format="reference|dimension"/>
+        <attr name="cbd_height" format="reference|dimension"/>
+        <attr name="cbd_boxSize" format="reference|dimension"/>
+        <attr name="cbd_cornerRadius" format="reference|dimension"/>
+        <attr name="cbd_strokeSize" format="reference|dimension"/>
+        <attr name="cbd_strokeColor" format="reference|color"/>
+        <attr name="cbd_tickColor" format="reference|color"/>
+        <attr name="cbd_animDuration" format="reference|integer"/>
+    </declare-styleable>
+</resources>

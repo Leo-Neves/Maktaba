@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- These top three attributes are not accessible to library users -->
+    <attr name="md_divider" format="color" />
+
+    <!-- Accessible global theming attributes -->
+    <attr name="md_dark_theme" format="boolean" />
+    <attr name="md_background_color" format="color" />
+
+    <attr name="md_icon" format="reference" />
+    <attr name="md_icon_max_size" format="dimension" />
+    <attr name="md_icon_limit_icon_to_default_size" format="boolean" />
+
+    <attr name="md_title_color" format="color" />
+    <attr name="md_content_color" format="color" />
+    <attr name="md_link_color" format="color" />
+
+    <attr name="md_positive_color" format="color" />
+    <attr name="md_neutral_color" format="color" />
+    <attr name="md_negative_color" format="color" />
+    <attr name="md_widget_color" format="color" />
+
+    <attr name="md_item_color" format="color" />
+    <attr name="md_divider_color" format="color" />
+    <attr name="md_list_selector" format="reference" />
+
+    <attr name="md_btn_stacked_selector" format="reference" />
+    <attr name="md_btn_positive_selector" format="reference" />
+    <attr name="md_btn_neutral_selector" format="reference" />
+    <attr name="md_btn_negative_selector" format="reference" />
+
+    <attr name="md_btn_ripple_color" format="color" />
+
+    <attr name="md_title_gravity" format="enum">
+        <enum name="start" value="0" />
+        <enum name="center" value="1" />
+        <enum name="end" value="2" />
+    </attr>
+
+    <attr name="md_content_gravity" format="enum">
+        <enum name="start" value="0" />
+        <enum name="center" value="1" />
+        <enum name="end" value="2" />
+    </attr>
+
+    <attr name="md_btnstacked_gravity" format="enum">
+        <enum name="start" value="0" />
+        <enum name="center" value="1" />
+        <enum name="end" value="2" />
+    </attr>
+
+    <attr name="md_items_gravity" format="enum">
+        <enum name="start" value="0" />
+        <enum name="center" value="1" />
+        <enum name="end" value="2" />
+    </attr>
+
+    <attr name="md_buttons_gravity" format="enum">
+        <enum name="start" value="0" />
+        <enum name="center" value="1" />
+        <enum name="end" value="2" />
+    </attr>
+
+    <declare-styleable name="MDRootLayout">
+        <attr name="md_reduce_padding_no_title_no_buttons" format="boolean" />
+    </declare-styleable>
+
+    <attr name="md_medium_font" format="string" />
+    <attr name="md_regular_font" format="string" />
+
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+
+    <!-- DatePicker -->
+    <declare-styleable name="DatePickerTimeline" tools:ignore="ResourceName">
+        <attr name="mti_primaryColor" format="color"/>
+        <attr name="mti_primaryDarkColor" format="color"/>
+
+        <attr name="mti_tabSelectedColor" format="color"/>
+        <attr name="mti_tabBeforeSelectionColor" format="color"/>
+
+        <attr name="mti_lblDayColor" format="color"/>
+
+        <attr name="mti_lblDateColor" format="color"/>
+        <attr name="mti_lblDateSelectedColor" format="color"/>
+        <attr name="mti_bgLblDateSelectedColor" format="color"/>
+        <attr name="mti_ringLblDateSelectedColor" format="color"/>
+        <attr name="mti_bgLblTodayColor" format="color"/>
+
+        <attr name="mti_lblLabelColor" format="color"/>
+
+        <attr name="mti_followScroll" format="boolean"/>
+        <attr name="mti_yearDigitCount" format="integer"/>
+        <attr name="mti_yearOnNewLine" format="boolean"/>
+    </declare-styleable>
+
+    <color name="mti_default_primary">#01b37c</color>
+    <color name="mti_default_primary_dark">#09865f</color>
+    <color name="mti_lbl_tab_selected">#FFFFFF</color>
+    <color name="mti_lbl_tab_before_selection">#5affffff</color>
+    <color name="mti_lbl_day">#b3bdc2</color>
+    <color name="mti_lbl_date">#555e6f</color>
+    <color name="mti_lbl_date_selected">#FFFFFF</color>
+    <color name="mti_bg_lbl_date_selected_color">#00b47c</color>
+    <color name="mti_ring_lbl_date_color">#d2f6eb</color>
+    <color name="mti_bg_lbl_today">#d6d6d6</color>
+    <color name="mti_lbl_label">#9b9b9b</color>
+
+    <!-- Month -->
+    <dimen name="mti_month_width">72dp</dimen>
+    <dimen name="mti_month_height">48dp</dimen>
+    <dimen name="mti_month_lbl_padding_horizontal">8dp</dimen>
+    <dimen name="mti_month_lbl_padding_vertical">5dp</dimen>
+    <dimen name="mti_month_lbl_text">14sp</dimen>
+
+    <!-- Timeline -->
+    <dimen name="mti_timeline_width">50dp</dimen>
+    <dimen name="mti_timeline_height">110dp</dimen>
+    <dimen name="mti_timeline_lbl_day_text">12dp</dimen>
+    <dimen name="mti_timeline_lbl_date_text">14dp</dimen>
+    <dimen name="mti_timeline_lbl_value">12dp</dimen>
+
+    <item name="mt_morphy_toolbar" type="id"/>
+</resources>
